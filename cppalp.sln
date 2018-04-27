@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "checkerboard", "checkerboar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ultimate_code_binary_no_dark_phase", "ultimate_code_binary_no_dark_phase\ultimate_code_binary_no_dark_phase.vcxproj", "{3878B59C-EF11-49F9-BC07-639A78144558}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "film", "film\film.vcxproj", "{AF577122-31DF-4483-9BEB-A5BC27CE0ECB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{3878B59C-EF11-49F9-BC07-639A78144558}.Release|x64.Build.0 = Release|x64
 		{3878B59C-EF11-49F9-BC07-639A78144558}.Release|x86.ActiveCfg = Release|Win32
 		{3878B59C-EF11-49F9-BC07-639A78144558}.Release|x86.Build.0 = Release|Win32
+		{AF577122-31DF-4483-9BEB-A5BC27CE0ECB}.Debug|x64.ActiveCfg = Debug|x64
+		{AF577122-31DF-4483-9BEB-A5BC27CE0ECB}.Debug|x64.Build.0 = Debug|x64
+		{AF577122-31DF-4483-9BEB-A5BC27CE0ECB}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF577122-31DF-4483-9BEB-A5BC27CE0ECB}.Debug|x86.Build.0 = Debug|Win32
+		{AF577122-31DF-4483-9BEB-A5BC27CE0ECB}.Release|x64.ActiveCfg = Release|x64
+		{AF577122-31DF-4483-9BEB-A5BC27CE0ECB}.Release|x64.Build.0 = Release|x64
+		{AF577122-31DF-4483-9BEB-A5BC27CE0ECB}.Release|x86.ActiveCfg = Release|Win32
+		{AF577122-31DF-4483-9BEB-A5BC27CE0ECB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
