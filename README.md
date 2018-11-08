@@ -40,15 +40,15 @@ to control digital micromirror devices (DMDs).
   3. Select `Add` and `New Project...`
   4. Follow the instructions (to name the project use lowercases and underscores).
   5. Start the development of the new control.
-- To add the header file provided by ViALUX:
-  1. Right click on the solution in the `Solution Explorer` window.
+- To add the header file provided by ViALUX to one of the project of the solution:
+  1. Right click on this project in the `Solution Explorer` window.
   2. Select `Properties`.
   3. Go to `C/C++`, `General`.
   4. Edit `Additional Include Directories`.
   5. Add path to the `inc/` directory.
   6. Apply the changes.
-- To add the library file provided by ViALUX:
-  1. Right click on the solution in the `Solution Explorer` window.
+- To add the library file provided by ViALUX to one of the project of the solution:
+  1. Right click on the project in the `Solution Explorer` window.
   2. Select `Properties`.
   3. Go to `Linker`, `General`.
   4. Edit `Additional Library Directories`.
@@ -56,7 +56,7 @@ to control digital micromirror devices (DMDs).
   6. Go to `Linker`, `Input`.
   7. Edit `Additional Dependencies`
   8. Add `alpD41.lib`.
-  9. Appply changes.
+  9. Apply changes.
 - To (re)generate the solution:
   1. Set the solution platform as `x64` (i.e. 64 bits).
   2. Set the solution configuration as either `Debug` or `Release`.
@@ -67,7 +67,7 @@ to control digital micromirror devices (DMDs).
   3. Copy & paste the DLL from the first location to the last one.
 - To be able to launch the executables, additional data may have to be accessible. For example,
   the checkerboard needs to access a file named `binarysource1000Mbits` which contains a
-  pregenerated sequence of random binary numbers.
+  pre-generated sequence of random binary numbers.
   1. Put additional data in `data/` (if necessary).
 - To ease the use of the generated executables, you can create shortcuts and place them on
   the desktop.
